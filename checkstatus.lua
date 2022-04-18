@@ -6,7 +6,7 @@ function CheckStatus()
     end
 end
 
-while getgenv().CheckS do
+while _G.CheckS do
     CheckStatus()
     wait()
 end
